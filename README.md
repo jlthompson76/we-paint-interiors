@@ -4,11 +4,11 @@
 
 Use HTML form elements, Google Fonts, and Flexbox, as well as margin and padding, to create the mockup below in HTML and CSS (download the attached files to see a larger version).
 
-Mockup of WePaintInteriors web page
+![Mockup of WePaintInteriors web page](images/paintingWebsite%20mockup.jpg)
 
 Use the appropriate form control for each field (e.g. text, date, time, color, etc). When the user fills in the form and clicks submit, the result should show data for all fields.  For example:
 
-Mockup of submitted form data
+![Mockup of submitted form data](images/submittedData%20mockup.jpg)
 
 Here are some things to keep in mind:
 
@@ -18,6 +18,6 @@ Here are some things to keep in mind:
 * The `action` for the form should go to [https://www.w3schools.com/action_page.php](https://www.w3schools.com/action_page.php)
 * Each field should specify a `name` attribute for user input to be recorded
 * Using the `button` element instead of `input type="submit"` will allow you to style the button in CSS
-* To style a text box in CSS, use the `input[type=tex]` selector.  To style an email field, use `input[type=email]`, etc.
+* To style a text box in CSS, use the `input[type=tex]` selector. To style an email field, use `input[type=email]`, etc.
 * Form layout can be applied using Flexbox (among other options); you can add `div` and other elements inside the `form` element
 * Don't forget "Box Vision"!
