@@ -1,0 +1,56 @@
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5em;
+}
+
+#container {
+    background-color: #7effd4;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#container h1 {
+    padding: 25px 0 0 0;
+    margin: 0;
+}
+
+#form {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f2f2f2;
+    border-radius: 7px;
+    margin-right: 20%;
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px 25px 0;
+}
+
+input {
+    font-size: 1em;
+    width: 80%;
+    padding: 10px;
+    margin: 0 0 0 10px;
+}
+
+#paint-color {
+    border-color: #839cc4;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    margin-left: 10px;
+}
+
+input, textarea {
+    border: 2px solid #cccccc;
+    border-radius: 7px;
+}
+
