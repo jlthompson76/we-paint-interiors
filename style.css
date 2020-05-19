@@ -38,6 +38,7 @@ form {
 .input {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     width: 81%;
 }
 
@@ -45,8 +46,8 @@ input, textarea {
     font-size: .9em;
     border: 2px solid #cccccc;
     border-radius: 7px;
-    padding: 10px;
-    margin: 0 0 0 10px;
+    padding: 15px;
+    margin: 0 0 0 20px;
 }
 
 #first-name, #last-name, #email, #comments {
@@ -70,12 +71,21 @@ input, textarea {
 
 #start-date, #start-time {
     min-width: 100px;
-    margin: 0 10px 0 10px;
+    margin: 0 20px 0 10px;
+}
+
+#start-date {
+    width: 45%;
+}
+
+#start-time {
+    width: 25%;
 }
 
 #paint-color {
-    width: 7%;
+    width: 10%;
     min-width: 50px;
+    height: 50%;
 }
 
 textarea {
